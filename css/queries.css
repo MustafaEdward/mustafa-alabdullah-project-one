@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1340px) {
+    h1 {
+        font-size: 5rem;
+    } 
+}
+
+@media only screen and (max-width: 1300px) {
+
+ h2,
+ h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+} 
+
+.wrapper-margin {
+    margin-top : 3rem;
+}
+
+.sections-wrapper p {
+    font-size: 1rem;
+}
+.sections-wrapper a { 
+    padding: 1rem 0.8rem;
+    margin-top: 2.5rem;
+    transition: all .2s;
+}
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    html,
+    body {
+        font-size: 62.5%;
+    }
+    h1 {
+        font-size: 10rem;
+        top: 33%;
+        left: 60%;
+        line-height: 8rem;
+    }
+
+    .main-nav a {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .header-social-media li {
+        margin: .4rem;
+        font-size: 2rem;
+    }
+    .row p {
+        font-size: 1.5rem;
+    }
+   
+   .wrapper-margin {
+       margin-top : 3rem;
+   }
+   h2,
+   h3 {
+       font-size: 2rem;
+   }
+
+   .sections-wrapper a { 
+       padding: 1rem 0.8rem;
+       margin-top: 2rem;
+   }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+   
+/* HEADER */
+.header {
+    background-position: right top;
+}
+p {
+    font-size: 2rem;
+}
+
+.nav-burger {
+    display: block;
+    font-size: 6rem;
+    float: right;
+    margin-right: 3rem;
+}
+
+.header .main-nav {
+    display: none;
+}
+
+h1 {
+    font-size: 8rem;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.header-social-media {
+    display: none;
+}
+
+/* MAIN SECTION */
+.row {
+   float: none;
+   width: 100%;
+}
+.responsive-desktop {
+    display: none;
+}
+.responsive-phone {
+    display: block;
+}
+
+.sections-wrapper {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+.sections-wrapper p {
+   text-align: center;
+}
+.sections-wrapper a {
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+ }
+
+
+
+/* DESSERT SECTION */
+
+.dessert-section{
+    padding: 5rem 0;   
+}
+
+.dessert-box {
+    float: none;
+}
+.dessert-width-1,
+.dessert-width-2{
+    width: 100%;
+    padding: 5rem;
+}
+
+/* CONTACT (ICONS) SECTION*/
+
+.contact-icons-section {
+    height: 40rem;
+}
+
+.contact-icons-section ul li {
+    display: block;
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+
+/* THE GRAM SECTION */
+
+.gram-box img {
+    width: 50%;
+}
+
+.gram-box img:last-child {
+    display: none;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    padding: 8rem 0;
+}
+
+.contact,
+.subscribe {
+    float: none;
+    width: 100%;
+    margin-bottom: 2.6rem;
+}
+
+footer p,
+address {
+    font-size: 2rem;
+}
+footer .main-nav li:not(:last-child){
+    margin-right: 5rem;
+}
+
+
+.footer-nav li{
+   font-size: 2rem;
+}
+
+form {
+    margin-top: 1.5rem;
+}
+input,
+label {
+    width: 100%;  
+    display: block;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+  ::placeholder {
+    text-align: center;
+  }
+  
+  
+footer span {
+      font-size: 1rem;
+  }
+   
+    }
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+p {
+    font-size: 1rem;
+    }
+
+h1 {
+    font-size: 4rem;
+}
+
+.footer-nav li{
+    font-size: 1.1rem;
+ }
+.footer-nav a {
+    padding: 0rem;
+}
+
+}
